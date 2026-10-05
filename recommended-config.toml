@@ -1,5 +1,8 @@
 #:schema https://developers.openai.com/codex/config-schema.json
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "context-usage", "used-tokens", "five-hour-limit", "weekly-limit"]
-terminal_title = ["project", "git-branch", "status", "thread", "task-progress"]
+status_line = ["model-with-reasoning", "fast-mode", "current-dir", "git-branch", "context-used", "used-tokens", "five-hour-limit", "weekly-limit"]
+terminal_title = ["spinner", "project", "git-branch", "status", "thread", "task-progress"]
+notifications = true
+notification_condition = "unfocused"
+notification_method = "auto"

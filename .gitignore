@@ -1,2 +1,9 @@
 *.log
 .DS_Store
+__pycache__/
+*.py[cod]
+
+# Config backups can contain private settings.
+*.statusline-*.bak
+*.statusline-*.bak.json
+.codex-statusline-*
